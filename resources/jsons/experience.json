@@ -1,0 +1,82 @@
+{
+	"experience":
+	[
+		{
+			"date": 2024,
+			"type": "R&D Software Engineer — AI & Geospatial Systems",
+			"title": "Surface Libre",
+			"description": "Automating full hydraulic software pipelines (HEC-RAS, TUFLOW, TELEMAC 2D). Integrating AI agents into simulation workflows for autonomous reporting and decision-making. Developing spatio-temporal forecasting models and orchestrating multi-source API integrations for hydraulic and forecasting pipelines.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "AI Agents", "url": "https://en.wikipedia.org/wiki/Intelligent_agent" },
+				{ "name": "HEC-RAS", "url": "https://www.hec.usace.army.mil/software/hec-ras/" },
+				{ "name": "QGIS", "url": "https://qgis.org/" },
+				{ "name": "Docker", "url": "https://www.docker.com/" }
+			],
+			"link": "https://www.surfacelibre.fr/",
+			"video": "none",
+			"image": "resources/images/experience/Surface_Libre.png"
+		},
+		{
+			"date": 2025,
+			"type": "Software Engineer & Climate Model Analyst",
+			"title": "ECMWF — Code for Earth 2025",
+			"description": "Selected for the ECMWF Code for Earth programme to develop EVALKIT. Implementing validation frameworks for the ECMWF EarthKit Python library, processing large-scale spatio-temporal climate datasets. Collaborating with an international team of scientists and engineers.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Jupyter", "url": "https://jupyter.org/" },
+				{ "name": "EarthKit", "url": "https://earthkit.readthedocs.io/" }
+			],
+			"link": "https://codeforearth.ecmwf.int/",
+			"video": "none",
+			"image": "resources/images/experience/ECMWF.jpeg"
+		},
+		{
+			"date": 2022,
+			"type": "R&D Engineer and Data Scientist (Apprenticeship)",
+			"title": "Surface Libre",
+			"description": "Developed automation systems for real-time hydrological and hydraulic modelling. Implemented AI solutions for uncertainty quantification in flood prediction models. Translated cutting-edge research into operational flood risk solutions for public sectors.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Machine Learning", "url": "https://en.wikipedia.org/wiki/Machine_learning" },
+				{ "name": "HEC-HMS", "url": "https://www.hec.usace.army.mil/software/hec-hms/" }
+			],
+			"link": "https://www.surfacelibre.fr/",
+			"video": "none",
+			"image": "resources/images/experience/Surface_Libre.png"
+		},
+		{
+			"date": 2022,
+			"type": "Spatial Hydrological Data Scientist (Research Internship)",
+			"title": "University of Paris Cité | Géotica ",
+			"description": "MSc Thesis: 'The effect of snowmelt on river discharge variability in downstream oases of the Argentina Andes.' Developed seasonal streamflow prediction models using machine learning, MODIS snow cover data, and CHIRPS precipitation data.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Remote Sensing", "url": "https://en.wikipedia.org/wiki/Remote_sensing" },
+				{ "name": "Machine Learning", "url": "https://en.wikipedia.org/wiki/Machine_learning" }
+			],
+			"link": "https://u-paris.fr/en/",
+			"video": "none",
+			"image": "resources/images/experience/Paris_Cite_Geotica.jpeg"
+		},
+		{
+			"date": 2021,
+			"type": "R&D Engineer Intern",
+			"title": "SAGE INGENIERIE",
+			"description": "Developed flood forecasting models using ANN and HEC-HMS software based on satellite precipitation data for flood risk management of rivers flowing towards the city of Fez, Morocco.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "HEC-HMS", "url": "https://www.hec.usace.army.mil/software/hec-hms/" },
+				{ "name": "ANN", "url": "https://en.wikipedia.org/wiki/Artificial_neural_network" }
+			],
+			"link": "https://www.sage-ingenierie.com/",
+			"video": "none",
+			"image": "resources/images/experience/Sage.jpeg"
+		}
+	]
+}

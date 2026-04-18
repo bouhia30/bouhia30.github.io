@@ -1,0 +1,60 @@
+{
+	"skills_categories":
+	[
+		{
+			"name": "Hydraulic & Catastrophe Modelling",
+			"skills":
+			[
+				{ "name": "HEC-RAS", "logo": "resources/images/skills/HEC-RAS.jpeg" },
+				{ "name": "TUFLOW", "logo": "resources/images/skills/TUFLOW.png" },
+				{ "name": "TELEMAC 2D", "logo": "resources/images/skills/TELEMAC-2D.jpeg" },
+				{ "name": "HEC-HMS", "logo": "resources/images/skills/HEC-HMS.jpeg" }
+			]
+		},
+		{
+			"name": "GIS & Geospatial",
+			"skills":
+			[
+				{ "name": "QGIS", "logo": "resources/images/skills/QGIS.png" },
+				{ "name": "ArcGIS", "logo": "resources/images/skills/ArcGIS.png" }
+			]
+		},
+		{
+			"name": "Machine Learning & AI",
+			"skills":
+			[
+				{ "name": "Scikit-learn", "logo": "resources/images/skills/Scikit-learn.png" },
+				{ "name": "TensorFlow", "logo": "resources/svgs/skills/TensorFlow.svg" },
+				{ "name": "PyTorch", "logo": "resources/svgs/skills/PyTorch.svg" },
+				{ "name": "XGBoost", "logo": "resources/images/skills/XGBoost.svg" },
+				{ "name": "LangChain", "logo": "resources/images/skills/Langchain.svg" }
+			]
+		},
+		{
+			"name": "Programming",
+			"skills":
+			[
+				{ "name": "Python", "logo": "resources/svgs/skills/Python.svg" },
+				{ "name": "R", "logo": "resources/images/skills/R.png" },
+				{ "name": "SQL", "logo": "resources/svgs/skills/Sql.svg" },
+				{ "name": "JavaScript", "logo": "resources/svgs/skills/JavaScript.svg" },
+				{ "name": "TypeScript", "logo": "resources/svgs/skills/TypeScript.svg" },
+				{ "name": "Fortran", "logo": "resources/images/skills/Fortran.png" }
+			]
+		},
+		{
+			"name": "Data Infrastructure",
+			"skills":
+			[
+				{ "name": "Kafka", "logo": "resources/images/skills/Kafka.svg" },
+				{ "name": "PyFlink", "logo": "resources/images/skills/PyFlink.png" },
+				{ "name": "Neo4j", "logo": "resources/images/skills/Neo4j.svg" },
+				{ "name": "PostgreSQL", "logo": "resources/images/skills/PostgreSQL.png" },
+				{ "name": "Docker", "logo": "resources/images/skills/Docker.svg" },
+				{ "name": "Kubernetes", "logo": "resources/images/skills/Kubernetes.png" },
+				{ "name": "Git", "logo": "resources/svgs/skills/Git.svg" },
+				{ "name": "AWS", "logo": "resources/images/skills/AWS.png" }
+			]
+		}
+	]
+}

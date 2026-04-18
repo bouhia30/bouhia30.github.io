@@ -1,0 +1,100 @@
+{
+	"projects":
+	[
+		{
+			"date": 2026,
+			"type": "Professional Project",
+			"title": "Raft.AI — Hydraulic Project Automation (In progress)",
+			"description": "An AI-agent system for automating hydraulic software pipelines (HEC-RAS & TUFLOW) — from model setup to batch execution, calibration, and post-processing. Targets an 80% project automation rate using intelligent workflow orchestration.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "AI Agents", "url": "https://en.wikipedia.org/wiki/Intelligent_agent" },
+				{ "name": "Claude", "url": "https://www.anthropic.com/" },
+				{ "name": "LangChain", "url": "https://www.langchain.com/" },
+				{ "name": "HEC-RAS", "url": "https://www.hec.usace.army.mil/software/hec-ras/" },
+				{ "name": "TUFLOW", "url": "https://www.tuflow.com/" }
+			],
+			"links":
+			[
+				"none",
+				"none",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/raftai.png",
+			"logo": "resources/svgs/projects/Folder.svg",
+			"categories": ["Personal", "AI"]
+		},
+		{
+			"date": 2023,
+			"type": "Personal Project",
+			"title": "Real-time Anomaly Detection Pipeline",
+			"description": "A distributed streaming pipeline for real-time anomaly detection in water level and streamflow time series data. Implements EWMA statistical process control for detecting data anomalies with sub-second latency.",
+			"tags":
+			[
+				{ "name": "Kafka", "url": "https://kafka.apache.org/" },
+				{ "name": "PyFlink", "url": "https://nightlies.apache.org/flink/flink-docs-stable/docs/dev/python/overview/" },
+				{ "name": "TimescaleDB", "url": "https://www.timescale.com/" },
+				{ "name": "PostgreSQL", "url": "https://www.postgresql.org/" },
+				{ "name": "Docker", "url": "https://www.docker.com/" }
+			],
+			"links":
+			[
+				"none",
+				"none",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/anaomalies.png",
+			"logo": "resources/svgs/projects/Folder.svg",
+			"categories": ["Personal", "AI"]
+		},
+		{
+			"date": 2024,
+			"type": "Academic Project",
+			"title": "InvoiceLens — Document Intelligence",
+			"description": "An end-to-end document processing pipeline combining computer vision, OCR, and NLP for automated invoice information extraction, implemented as an interactive Streamlit application for structured data extraction.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Swin Transformer", "url": "https://github.com/microsoft/Swin-Transformer" },
+				{ "name": "ViT", "url": "https://huggingface.co/docs/transformers/model_doc/vit" },
+				{ "name": "SpaCy", "url": "https://spacy.io/" },
+				{ "name": "Streamlit", "url": "https://streamlit.io/" }
+			],
+			"links":
+			[
+				"https://github.com/bouhia30/Invoice-Information-Extraction",
+				"https://github.com/bouhia30/Invoice-Information-Extraction",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/Invoice_intelligence.jpg",
+			"logo": "resources/svgs/projects/Folder.svg",
+			"categories": ["Personal", "AI"]
+		},
+		{
+			"date": 2025,
+			"type": "Open Source Project",
+			"title": "EVALKIT — ECMWF Code for Earth 2025",
+			"description": "Selected for the ECMWF Code for Earth programme. A Jupyter-based application for detecting and analysing errors in climate and weather prediction models, built on the ECMWF EarthKit Python library.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Jupyter", "url": "https://jupyter.org/" },
+				{ "name": "EarthKit", "url": "https://earthkit.readthedocs.io/" }
+			],
+			"links":
+			[
+				"https://github.com/bouhia30/EVALKIT",
+				"https://github.com/bouhia30/EVALKIT",
+				"none"
+			],
+			"video": "none",
+			"image": "resources/images/projects/ECMWF.jpeg",
+			"logo": "resources/svgs/projects/Folder.svg",
+			"categories": ["Personal", "AI"]
+		}
+	]
+}
