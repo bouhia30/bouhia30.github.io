@@ -106,8 +106,8 @@ ol
 
 .content.leaning
 {
-	margin-top: calc(clamp(100px, 7vw, 140px) + 3.3vw);
-	margin-bottom: calc(clamp(100px, 7vw, 140px) - 3.3vw);
+	margin-top: calc(clamp(60px, 5vw, 100px) + 3.3vw);
+	margin-bottom: calc(clamp(40px, 4vw, 70px) - 3.3vw);
 }
 
 @media screen and (max-width: 1400px) { .content { padding: 0px 150px; } }

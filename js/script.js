@@ -11,6 +11,7 @@ window.onload = () =>
 {
 	document.documentElement.scrollLeft = 0;
 
+	lang_events();
 	header_events();
 	home_events();
 	projects_events();

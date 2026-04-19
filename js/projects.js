@@ -34,6 +34,10 @@ function projects_events()
 	function add_project(project, inverted, featured)
 	{
 		let tags = '';
+		const lang = document.documentElement.lang || 'en';
+		const description = (lang === 'fr' && project.description_fr) ? project.description_fr : project.description;
+		const type = (lang === 'fr' && project.type_fr) ? project.type_fr : project.type;
+		const title = (lang === 'fr' && project.title_fr) ? project.title_fr : project.title;
 
 		if (featured)
 		{
@@ -48,10 +52,10 @@ function projects_events()
 							<div class="type">
 								<span>${project.date}</span>
 								<span>•</span>
-								<span>${project.type}</span>
+								<span>${type}</span>
 							</div>
-							${project.links[0] == 'none' ? `<span class="project_title">${project.title}</span>` : `<a class="project_title" href="${project.links[0]}" target="_blank">${project.title}</a>`}
-							<div class="text"><p>${project.description}</p></div>
+							${project.links[0] == 'none' ? `<span class="project_title">${title}</span>` : `<a class="project_title" href="${project.links[0]}" target="_blank">${title}</a>`}
+							<div class="text"><p>${description}</p></div>
 							<div class="tags">` + tags + `</div>
 							<div class="links">` + (project.links[1] == 'none' ? '' : `
 								<a class="github" href="${project.links[1]}" target="_blank">
@@ -221,4 +225,6 @@ function projects_events()
 			el.classList.add('selected');
 		});
 	});
+
+	window.projects_regenerate = generate_projects;
 }

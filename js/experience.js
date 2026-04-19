@@ -29,10 +29,9 @@ function experience_events()
 
 	function add_job(job, inverted)
 	{
-		let tags = '';
-
-		for (let tag of job.tags)
-			tags += `<a href="${tag.url}" target="_blank">${tag.name}</a>`;
+		const lang = document.documentElement.lang || 'en';
+		const description = (lang === 'fr' && job.description_fr) ? job.description_fr : job.description;
+		const type = (lang === 'fr' && job.type_fr) ? job.type_fr : job.type;
 
 		if (window.innerWidth > 780)
 		{
@@ -42,11 +41,10 @@ function experience_events()
 						<div class="type">
 							<span>${job.date}</span>
 							<span>•</span>
-							<span>${job.type}</span>
+							<span>${type}</span>
 						</div>
 						<a class="job_title" href="${job.link}" target="_blank">${job.title}</a>
-						<div class="text"><p>${job.description}</p></div>
-						<div class="tags">` + tags + `</div>
+						<div class="text"><p>${description}</p></div>
 					</div>
 					<div class="job_view">
 						<a ${is_safari() ? 'class="safari_fix"' : ''} href="${job.link}" target="_blank">
@@ -66,15 +64,14 @@ function experience_events()
 		{
 			document.querySelector('#experience_section .experience_content').innerHTML += `
 				<div class="in_animation job ${is_safari() ? 'safari_fix' : ''}" style="background-image: url(${job.image});">
-					<div class="job_text"">
+					<div class="job_text">
 						<div class="type">
-							<span>${job.type}</span>
+							<span>${type}</span>
 							<span>•</span>
 							<span>${job.date}</span>
 						</div>
 						<a class="job_title" href="${job.link}" target="_blank">${job.title}</a>
-						<div class="text"><p>${job.description}</p></div>
-						<div class="tags">` + tags + `</div>
+						<div class="text"><p>${description}</p></div>
 					</div>
 				</div>`;
 		}
@@ -132,4 +129,6 @@ function experience_events()
 			el.classList.add('selected');
 		});
 	});
+
+	window.experience_regenerate = generate_experience;
 }

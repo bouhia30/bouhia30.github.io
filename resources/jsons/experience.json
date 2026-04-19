@@ -4,16 +4,11 @@
 		{
 			"date": 2024,
 			"type": "R&D Software Engineer — AI & Geospatial Systems",
+			"type_fr": "Software Engineer R&D — IA & Systèmes Géospatiaux",
 			"title": "Surface Libre",
 			"description": "Automating full hydraulic software pipelines (HEC-RAS, TUFLOW, TELEMAC 2D). Integrating AI agents into simulation workflows for autonomous reporting and decision-making. Developing spatio-temporal forecasting models and orchestrating multi-source API integrations for hydraulic and forecasting pipelines.",
-			"tags":
-			[
-				{ "name": "Python", "url": "https://www.python.org/" },
-				{ "name": "AI Agents", "url": "https://en.wikipedia.org/wiki/Intelligent_agent" },
-				{ "name": "HEC-RAS", "url": "https://www.hec.usace.army.mil/software/hec-ras/" },
-				{ "name": "QGIS", "url": "https://qgis.org/" },
-				{ "name": "Docker", "url": "https://www.docker.com/" }
-			],
+			"description_fr": "Automatisation complète des pipelines de logiciels hydrauliques (HEC-RAS, TUFLOW, TELEMAC 2D). Intégration d'agents IA dans les workflows de simulation pour des rapports autonomes et la prise de décision. Développement de modèles de prévision spatio-temporels et orchestration d'intégrations API multi-sources pour les pipelines hydrauliques.",
+			"tags": [],
 			"link": "https://www.surfacelibre.fr/",
 			"video": "none",
 			"image": "resources/images/experience/Surface_Libre.png"
@@ -21,14 +16,11 @@
 		{
 			"date": 2025,
 			"type": "Software Engineer & Climate Model Analyst",
+			"type_fr": "Software Engineer & Analyste de Modèles Climatiques",
 			"title": "ECMWF — Code for Earth 2025",
 			"description": "Selected for the ECMWF Code for Earth programme to develop EVALKIT. Implementing validation frameworks for the ECMWF EarthKit Python library, processing large-scale spatio-temporal climate datasets. Collaborating with an international team of scientists and engineers.",
-			"tags":
-			[
-				{ "name": "Python", "url": "https://www.python.org/" },
-				{ "name": "Jupyter", "url": "https://jupyter.org/" },
-				{ "name": "EarthKit", "url": "https://earthkit.readthedocs.io/" }
-			],
+			"description_fr": "Sélectionné pour le programme ECMWF Code for Earth afin de développer EVALKIT. Mise en œuvre de frameworks de validation pour la bibliothèque Python EarthKit de l'ECMWF, traitement de jeux de données climatiques spatio-temporels à grande échelle. Collaboration avec une équipe internationale de scientifiques et d'ingénieurs.",
+			"tags": [],
 			"link": "https://codeforearth.ecmwf.int/",
 			"video": "none",
 			"image": "resources/images/experience/ECMWF.jpeg"
@@ -36,14 +28,11 @@
 		{
 			"date": 2022,
 			"type": "R&D Engineer and Data Scientist (Apprenticeship)",
+			"type_fr": "Ingénieur R&D et Data Scientist (Alternance)",
 			"title": "Surface Libre",
 			"description": "Developed automation systems for real-time hydrological and hydraulic modelling. Implemented AI solutions for uncertainty quantification in flood prediction models. Translated cutting-edge research into operational flood risk solutions for public sectors.",
-			"tags":
-			[
-				{ "name": "Python", "url": "https://www.python.org/" },
-				{ "name": "Machine Learning", "url": "https://en.wikipedia.org/wiki/Machine_learning" },
-				{ "name": "HEC-HMS", "url": "https://www.hec.usace.army.mil/software/hec-hms/" }
-			],
+			"description_fr": "Développement de systèmes d'automatisation pour la modélisation hydrologique et hydraulique en temps réel. Mise en œuvre de solutions IA pour la quantification des incertitudes dans les modèles de prévision des crues. Transformation de recherches de pointe en solutions opérationnelles de gestion du risque d'inondation pour le secteur public.",
+			"tags": [],
 			"link": "https://www.surfacelibre.fr/",
 			"video": "none",
 			"image": "resources/images/experience/Surface_Libre.png"
@@ -51,14 +40,11 @@
 		{
 			"date": 2022,
 			"type": "Spatial Hydrological Data Scientist (Research Internship)",
-			"title": "University of Paris Cité | Géotica ",
+			"type_fr": "Data Scientist Hydrologique Spatial (Stage de Recherche)",
+			"title": "University of Paris Cité | Géotica",
 			"description": "MSc Thesis: 'The effect of snowmelt on river discharge variability in downstream oases of the Argentina Andes.' Developed seasonal streamflow prediction models using machine learning, MODIS snow cover data, and CHIRPS precipitation data.",
-			"tags":
-			[
-				{ "name": "Python", "url": "https://www.python.org/" },
-				{ "name": "Remote Sensing", "url": "https://en.wikipedia.org/wiki/Remote_sensing" },
-				{ "name": "Machine Learning", "url": "https://en.wikipedia.org/wiki/Machine_learning" }
-			],
+			"description_fr": "Mémoire de Master : 'L'effet de la fonte des neiges sur la variabilité des débits fluviaux dans les oasis en aval des Andes argentines.' Développement de modèles de prédiction saisonnière des débits par apprentissage automatique, données MODIS et précipitations CHIRPS.",
+			"tags": [],
 			"link": "https://u-paris.fr/en/",
 			"video": "none",
 			"image": "resources/images/experience/Paris_Cite_Geotica.jpeg"
@@ -66,14 +52,11 @@
 		{
 			"date": 2021,
 			"type": "R&D Engineer Intern",
+			"type_fr": "Stagiaire Ingénieur R&D",
 			"title": "SAGE INGENIERIE",
 			"description": "Developed flood forecasting models using ANN and HEC-HMS software based on satellite precipitation data for flood risk management of rivers flowing towards the city of Fez, Morocco.",
-			"tags":
-			[
-				{ "name": "Python", "url": "https://www.python.org/" },
-				{ "name": "HEC-HMS", "url": "https://www.hec.usace.army.mil/software/hec-hms/" },
-				{ "name": "ANN", "url": "https://en.wikipedia.org/wiki/Artificial_neural_network" }
-			],
+			"description_fr": "Développement de modèles de prévision des crues par réseaux de neurones artificiels (RNA) et logiciel HEC-HMS, à partir de données de précipitations satellitaires, pour la gestion du risque d'inondation des cours d'eau en direction de la ville de Fès, Maroc.",
+			"tags": [],
 			"link": "https://www.sage-ingenierie.com/",
 			"video": "none",
 			"image": "resources/images/experience/Sage.jpeg"

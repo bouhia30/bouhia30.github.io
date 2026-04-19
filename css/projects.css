@@ -12,7 +12,7 @@
 {
 	display: block;
 	text-align: center;
-	margin-top: clamp(40px, 5vw, 70px);
+	margin-top: clamp(20px, 3vw, 40px);
 	font-family: raleway_semi_bold;
 	font-size: 17px;
 	color: var(--light_blue);
